@@ -7,11 +7,10 @@ wp-content/themes/wemesh/node_modules/
 wp-content/plugins/hello.php
 
 wp-content/uploads/
-# ignore specific themes
 wp-content/themes/wemesh/node_modules/
 wp-content/themes/wemesh/.git/
 wp-content/themes/wemesh/src/
-
+!wp-content/themes/wemesh/dist/
 # ignore node dependency directories
 node_modules/
 
