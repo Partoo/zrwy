@@ -1,0 +1,22 @@
+node_modules/
+wp-config.php
+
+wp-content/themes/wemesh/node_modules/
+!wp-content/
+# ignore these plugins
+wp-content/plugins/hello.php
+
+wp-content/uploads/
+# ignore specific themes
+wp-content/themes/wemesh/node_modules/
+wp-content/themes/wemesh/.git/
+wp-content/themes/wemesh/src/
+
+# ignore node dependency directories
+node_modules/
+
+# ignore log files and databases
+*.log
+*.sql
+*.sqlite
+.DS_Store
